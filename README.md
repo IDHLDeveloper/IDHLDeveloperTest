@@ -9,7 +9,7 @@ Prerequisites
 * A Github account
 * Familiarise yourself with the Disney Characters API <https://disneyapi.dev/docs>
 * Blazor Server documentation <https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/?view=aspnetcore-6.0>
-	
+* Download this repo	
 	
 Tasks
  
