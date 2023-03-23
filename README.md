@@ -1,6 +1,6 @@
 # IDHL In House Developer Test
 
-This test should be **no more than 1 hour**. Good luck!
+We expect you to spend **no more than 1 hour** on the implemantation. Good luck!
 
 Prerequisites
 
@@ -8,8 +8,8 @@ Prerequisites
 * .Net 6.0 SDK
 * A Github account
 * Familiarise yourself with the Disney Characters API <https://disneyapi.dev/docs>
-* Blazor Server documentation <https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/?view=aspnetcore-6.0>
-* Download this repo	
+* Blazor Server documentation <https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-6.0> (This test uses Blazor Server so follow any documentation for this)
+* Download this repository	
 	
 Tasks
  
