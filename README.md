@@ -1,6 +1,6 @@
 # IDHL In House Developer Test
 
-We expect you to spend **no more than 1 hour** on the implemantation. Good luck!
+We expect you to spend **no more than 1 hour** on the implementation. Good luck!
 
 Prerequisites
 
