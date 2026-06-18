@@ -26,7 +26,7 @@ namespace IDHLDeveloperTest.Services
         {
             var client = _httpClientFactory.CreateClient();
             var stream = await client.GetStreamAsync($"https://api.disneyapi.dev/{path}");
-            return await JsonSerializer.DeserializeAsync<T>(stream);
+            return await JsonSerializer.DeserializeAsync<T>(stream, new JsonSerializerOptions{PropertyNameCaseInsensitive = true});
         }
     }
 }

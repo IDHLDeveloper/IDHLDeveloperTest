@@ -4,16 +4,37 @@ namespace IDHLDeveloperTest.Models
 {
     public class Character
     {
-        public int? _id { get; set; }
-        public string? url { get; set; }
-        public string? name { get; set; }
-        public string? imageUrl { get; set; }
-        public string[]? films { get; set; }
-        public string[]? shortFilms { get; set; }
-        public string[]? tvShows { get; set; }
-        public string[]? videoGames { get; set; }
-        public string[]? parkAttractions { get; set; }
-        public string[]? allies { get; set; }
-        public string[]? enemies { get; set; }
+        [JsonPropertyName("_id")]
+        public int Id { get; set; }
+
+        [JsonPropertyName("url")]
+        public string Url { get; set; }
+
+        [JsonPropertyName("nameZ")]
+        public string NameZ { get; set; }
+
+        [JsonPropertyName("imageUrl")]
+        public string ImageUrl { get; set; }
+
+        [JsonPropertyName("films")]
+        public string[] Films { get; set; }
+
+        [JsonPropertyName("shortFilms")]
+        public string[] ShortFilms { get; set; }
+
+        [JsonPropertyName("tvShows")]
+        public string[] TvShows { get; set; }
+
+        [JsonPropertyName("videoGames")]
+        public string[] VideoGames { get; set; }
+
+        [JsonPropertyName("parkAttractions")]
+        public string[] ParkAttractions { get; set; }
+
+        [JsonPropertyName("allies")]
+        public string[] Allies { get; set; }
+
+        [JsonPropertyName("enemies")]
+        public string[] Enemies { get; set; }
     }
 }

@@ -2,6 +2,6 @@
 {
     public class CharacterList
     {
-        public List<Character> data { get; set; } = new List<Character>();
+        public List<Character> Data { get; set; } = new List<Character>();
     }
 }
