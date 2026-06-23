@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link href="css/site.css" rel="stylesheet" />
     <link href="IDHLDeveloperTest.styles.css" rel="stylesheet" />
-    <HeadOutlet/>
+    <HeadOutlet @rendermode="InteractiveServer"/>
 </head>
 <body>
-    <Routes/>
+    <Routes @rendermode="InteractiveServer"/>
     <div id="blazor-error-ui">
         <environment include="Staging,Production">
             An error has occurred. This application may no longer respond until reloaded.
